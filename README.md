@@ -12,6 +12,7 @@
   ```
   cd Tugas-Praktikum-Lab-Basdat-2023
   ```
+- Silahkan buat folder dengan NIM kalian
 - Di dalam folder NIM kalian buat folder dengan nama "Pertemuan-<no_pertemuan>" tanpa tanda kutip dan tanda <>. contoh: Pertemuan-1
 - Di dalam folder pertemuan tersebut, kalian menambahkan file tugas praktikum yang telah kalian kerjakan
 - Setelah semua file tugas telah diselesaikan dan telah diasistensikan lakukan perintah berikut
