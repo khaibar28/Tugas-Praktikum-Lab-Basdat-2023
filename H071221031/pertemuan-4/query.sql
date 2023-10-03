@@ -53,6 +53,19 @@ WHERE o.status = "cancelled"
 
 SELECT * FROM orders
 WHERE `status` = "cancelled"
+
+-- NO.tambahan
+SELECT * FROM products
+SELECT * FROM orders
+
+SELECT p.productName , o.orderDate
+FROM orders o
+JOIN orderdetails od
+USING (orderNumber)
+JOIN products p
+USING(productCode)
+WHERE p.productName = "1940 Ford Pickup Truck"
+ORDER BY orderDate DESC
  
 
 
