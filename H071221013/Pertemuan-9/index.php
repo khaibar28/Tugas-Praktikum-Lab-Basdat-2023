@@ -26,14 +26,14 @@ while (true) {
     case 0:
       return;
     case 1:
-      echo "Input Kolom yang mau ditampilkan\n";
+      echo "Pilih Kolom yang mau ditampilkan\n";
       $input = readline('> ');
       
       $query->show_data($input);
       echo "\n";
       break;
     case 2:
-      echo "Input kolom dari customers yang hendak kamu ubah\n";
+      echo "Pilih kolom dari customers yang hendak kamu ubah\n";
       $kolom = readline('> ');
       $query->update_name($kolom);
       echo "\n";
